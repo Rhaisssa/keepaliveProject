@@ -1,0 +1,131 @@
+@import url(//db.onlinewebfonts.com/c/7200c6dd8ac604abe09f5159e53a40c0?family=Mark+Pro);
+
+.container {
+  background: #222222;
+  box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ola {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 30px;
+  color: #e0e0e0;
+}
+
+.text {
+  position: absolute;
+  width: 301px;
+  height: 52px;
+  left: 10%;
+  top: 23%;
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20.28px;
+  color: #e0e0e0;
+}
+
+.login-form {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  right: 30%;
+  top: 40%;
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #e0e0e0;
+}
+
+.userEmail {
+  box-sizing: border-box;
+  position: absolute;
+  width: 30%;
+  height: 7%;
+  top: 30%;
+  background: #26292c;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 30%;
+  font-size: 12px;
+}
+
+.userPassword {
+  box-sizing: border-box;
+  position: absolute;
+  width: 30%;
+  height: 7%;
+  top: 40%;
+  background: #26292c;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 30%;
+  font-size: 12px;
+}
+
+/*#iconUser {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 83%;
+  left: 260%;
+  background-color: #26292c;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+}*/
+
+/*#iconPassWord {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  left: 691px;
+  top: 673px;
+
+  background: #e0e0e0;
+}*/
+
+.submit-button {
+  box-sizing: border-box;
+  position: absolute;
+  width: 30%;
+  height: 8%;
+  top: 60%;
+  background: linear-gradient(90deg, #ff2d04 0%, #c13216 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.alert alert-danger {
+  color: #e9b425;
+  text-align: center;
+  line-height: 12px;
+  border-top: 28px;
+  position: relative;
+}

@@ -1,0 +1,77 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="login">
+        <div class="login-block">
+          <div class="login-block-wrapper">
+            <div class="">
+              <h1 class="ola">Olá,</h1>
+              <p class="text">
+                Para continuar navegando de forma segura, efetue o login na
+                rede.
+              </p>
+            </div>
+      <form
+        class="login-form" id="form-signin"
+        (ngSubmit)="onSubmit(signInForm)"
+        #signInForm="ngForm"
+      >
+            <h2>Login</h2>
+            <div class="input-userEmail">
+                <input type="text" class="userEmail" placeholder="   Usuário"/>
+                <!--<img
+                  id="iconUser"
+                  class= "img-thumbnail"
+                  src="./assets\vector.svg"
+                  alt="Um pequeno icone que representa um usuário."
+                />-->
+              </div>
+              <div class="input-userPassword">
+                <input
+                  class="userPassword"
+                  id="userPassword"
+                  type="password"
+                  placeholder="   Senha"
+                />
+                <!--<img id="iconPassword"
+                  class= "img-thumbnail"
+                  src="./assets\iconPassword.jpg"
+                  alt="Um pequeno icone que representa a senha."
+                />-->
+              </div>
+              <button type="submit" class="submit-button">Continuar</button>
+
+        <div class="alert alert" role="alert" *ngIf="formValid">
+          All fields must be filled.
+        </div>
+
+        <div class="alert alert-danger" role="alert" *ngIf="credentialsInvalid">
+          Ops, usuário ou senha inválidos. Tente novamente!
+        </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <div class="image-block">
+        <div class="image-background">
+          <img
+            class="img-fluid"
+            alt="Responsive image"
+            src="./assets\home.jpg"
+          />
+          <!-- <div class="iconLogo">
+            <img id="iconLogo"
+                  class= "img-thumbnail"
+                  src="./assets\logoCompassoBranco.jpg"
+                  alt="Um pequeno icone que representa a senha."
+                />
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
